@@ -1,0 +1,18 @@
+{
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "node ./main.js",
+    "run": "node ./main.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.13",
+    "canvas": "^2.11.2",
+    "cli-progress": "^3.12.0",
+    "glob": "^10.4.1",
+    "gm": "^1.25.0",
+    "image-size": "^1.1.1",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^5.0.7",
+    "uuid": "^9.0.1"
+  }
+}
