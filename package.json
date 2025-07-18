@@ -1,19 +1,24 @@
 {
-  "version": "0.1.0",
   "license": "Apache-2.0",
+  "version": "0.2.0",
+  "name": "zip2gif",
+  "description": "xeonsky zip2gif",
+  "author": "XEonSKY Studio",
+  "main": "./src/index.js",
   "scripts": {
-    "dev": "node ./main.js",
-    "run": "node ./main.js"
+    "dev": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
   },
   "dependencies": {
     "adm-zip": "^0.5.16",
-    "canvas": "^3.1.0",
-    "cli-progress": "^3.12.0",
-    "glob": "^11.0.2",
-    "gm": "^1.25.1",
     "image-size": "^2.0.2",
-    "mkdirp": "^3.0.1",
-    "rimraf": "^6.0.1",
     "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/node": "^24.0.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
